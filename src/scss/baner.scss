@@ -1,0 +1,33 @@
+.banner {
+    background-image: url(./../img/bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    padding: 196px 0;
+    .title {
+        font-weight: bold;
+        font-size: 48px;
+        line-height: 49px;
+        margin-bottom: 40px;
+    }
+    p{
+        max-width: 315px;
+        margin-bottom: 44px;
+    }
+    .btn {
+        color: #fff;
+        font-size: 14px;
+        font-family: "Roboto", serif;
+        border-radius: 40px;
+        background-color: transparent;
+        border: 2px solid #fff;
+        padding: 7px 48px;
+        display: inline-block;
+        cursor: pointer;
+        &:hover{
+            background-color: #fff;
+            color: $accent;
+        }
+    }
+}
